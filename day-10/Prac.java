@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Stack;
 
 class Prac {
   public static void main(String[] args) {
@@ -31,6 +34,32 @@ class Prac {
       System.out.println(s1);
     }
     LinkedList<Integer> ll1 = new LinkedList<Integer>();
+    ll1.add(1);
+    ll1.add(2);
+    ll1.add(3);
+    System.out.println(ll1);
+
+
+    System.out.println("=========\nWORKING WITH QUEUE");
+    PriorityQueue<Integer> q = new PriorityQueue<Integer>();
+    q.add(5);
+    q.add(4);
+    q.add(3);
+    System.out.println(q.peek());
+    q.poll();
+    System.out.println(q.peek());
+
+    Stack<Integer> stac = new Stack<Integer>();
+    stac.push(1);
+    stac.push(2);
+    stac.push(3);
+    System.out.println(stac);
+    System.out.println(stac.peek());
+    stac.pop();
+    System.out.println(stac.peek());
+
+
+
 
     }
 }
