@@ -3,8 +3,6 @@ Write a program to sort an array of integers in descending order you need to wri
 sorting loop yourself not use a library function.
 */
 
-package BasicJavaTest;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
