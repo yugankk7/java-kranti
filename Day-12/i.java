@@ -2,7 +2,7 @@
 Using a stack check whether a string is a palindrome or not. You may use the built-in
 stack class or create you own stack using array.
 */
-package BasicJavaTest;
+
 
 import java.util.Iterator;
 import java.util.Scanner;
