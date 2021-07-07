@@ -1,7 +1,7 @@
 /*
 Write a program to find the sum of two 3x3 matrices entered by the user.
 */
-package BasicJavaTest;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
