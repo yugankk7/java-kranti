@@ -4,8 +4,6 @@ number for example 1+5+3+7 =16; hence output is true. If the sum is not equal to
 number output false. 
 */
 
-package BasicJavaTest;
-
 import java.util.Scanner;
 
 public class e {
