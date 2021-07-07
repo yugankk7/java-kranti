@@ -2,7 +2,6 @@
 Write a program to find whether the user entered number is a prime number or not.
 */
 
-package BasicJavaTest;
 
 import java.util.Scanner;
 
