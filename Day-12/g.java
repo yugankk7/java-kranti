@@ -33,7 +33,7 @@ public class g {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value : ");                   //as stated in the question the assumption is made that only 
         int num = sc.nextInt();                                     //perfect squares are given as input
-        sc.close();                                                 //Also works for num = 1
+        sc.close();                                                 
         System.out.println("The square root of " + num + " is " + findSqroot(num));
     }
 }
