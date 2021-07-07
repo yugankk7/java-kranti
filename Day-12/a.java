@@ -3,7 +3,6 @@ Write a program to implement this formula C(n,r) = n! /((n-r)! * r!), use as muc
 as possible,if the program is not done using recursion it will not be given any marks.
 */
 
-package BasicJavaTest;
 
 import java.util.Scanner;
 
