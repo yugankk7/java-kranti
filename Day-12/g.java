@@ -7,8 +7,6 @@ Assuming you will be given a perfect square as an input, use above given algorti
 the square root.
 */
 
-package BasicJavaTest;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -35,7 +33,7 @@ public class g {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value : ");                   //as stated in the question the assumption is made that only 
         int num = sc.nextInt();                                     //perfect squares are given as input
-        sc.close();
+        sc.close();                                                 //Also works for num = 1
         System.out.println("The square root of " + num + " is " + findSqroot(num));
     }
 }
