@@ -1,7 +1,6 @@
 /* 
 Find the factorial of a given number using java ternary operator.
 */
-package BasicJavaTest;
 
 import java.util.Scanner;
 
